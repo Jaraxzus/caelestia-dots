@@ -1,0 +1,30 @@
+{
+  "toggles": {
+    "communication": {
+      "Telegram": {
+        "enable": true,
+        "match": [
+          {
+            "class": "org.telegram.desktop"
+          }
+        ],
+        "command": [
+          "Telegram"
+        ],
+        "move": true
+      },
+      "discord": {
+        "enable": false,
+        "match": [
+          {
+            "class": "discord"
+          }
+        ],
+        "command": [
+          "discord"
+        ],
+        "move": true
+      }
+    }
+  }
+}
